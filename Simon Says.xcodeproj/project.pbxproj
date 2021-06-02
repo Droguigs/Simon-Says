@@ -15,6 +15,7 @@
 		B67DC2D42667BDD00021F45C /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B67DC2D22667BDD00021F45C /* LaunchScreen.storyboard */; };
 		B67DC2DF2667BDD10021F45C /* Simon_SaysTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B67DC2DE2667BDD10021F45C /* Simon_SaysTests.swift */; };
 		B67DC2EA2667BDD10021F45C /* Simon_SaysUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B67DC2E92667BDD10021F45C /* Simon_SaysUITests.swift */; };
+		B67DC2F82667C6390021F45C /* CircularButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = B67DC2F72667C6390021F45C /* CircularButton.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -49,6 +50,7 @@
 		B67DC2E52667BDD10021F45C /* Simon SaysUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Simon SaysUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		B67DC2E92667BDD10021F45C /* Simon_SaysUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Simon_SaysUITests.swift; sourceTree = "<group>"; };
 		B67DC2EB2667BDD10021F45C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B67DC2F72667C6390021F45C /* CircularButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CircularButton.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -106,6 +108,7 @@
 				B67DC2D02667BDD00021F45C /* Assets.xcassets */,
 				B67DC2D22667BDD00021F45C /* LaunchScreen.storyboard */,
 				B67DC2D52667BDD00021F45C /* Info.plist */,
+				B67DC2F72667C6390021F45C /* CircularButton.swift */,
 			);
 			path = "Simon Says";
 			sourceTree = "<group>";
@@ -258,6 +261,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B67DC2F82667C6390021F45C /* CircularButton.swift in Sources */,
 				B67DC2CC2667BDC50021F45C /* ViewController.swift in Sources */,
 				B67DC2C82667BDC50021F45C /* AppDelegate.swift in Sources */,
 				B67DC2CA2667BDC50021F45C /* SceneDelegate.swift in Sources */,
@@ -443,7 +447,7 @@
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = "com.Simon-Says";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.Simon-Says-Drogs";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -462,7 +466,7 @@
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = "com.Simon-Says";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.Simon-Says-Drogs";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
