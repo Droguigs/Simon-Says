@@ -79,12 +79,15 @@
                                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="f1U-pc-Qur" customClass="CircularButton" customModule="Simon_Says" customModuleProvider="target">
                                                         <rect key="frame" x="0.0" y="0.0" width="161.5" height="161.5"/>
                                                         <color key="backgroundColor" systemColor="systemRedColor"/>
+                                                        <connections>
+                                                            <action selector="colorButtonHandler:" destination="BYZ-38-t0r" eventType="touchUpInside" id="KUx-cO-C6V"/>
+                                                        </connections>
                                                     </button>
                                                     <button opaque="NO" tag="1" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="hV5-ih-Vfo" customClass="CircularButton" customModule="Simon_Says" customModuleProvider="target">
                                                         <rect key="frame" x="169.5" y="0.0" width="161.5" height="161.5"/>
                                                         <color key="backgroundColor" systemColor="systemBlueColor"/>
                                                         <connections>
-                                                            <action selector="colorButtonHandler:" destination="BYZ-38-t0r" eventType="touchUpInside" id="5I9-Hj-77p"/>
+                                                            <action selector="colorButtonHandler:" destination="BYZ-38-t0r" eventType="touchUpInside" id="vN4-4P-tPe"/>
                                                         </connections>
                                                     </button>
                                                 </subviews>
@@ -95,10 +98,16 @@
                                                     <button opaque="NO" tag="2" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="nL7-fr-Ij6" customClass="CircularButton" customModule="Simon_Says" customModuleProvider="target">
                                                         <rect key="frame" x="0.0" y="0.0" width="161.5" height="161.5"/>
                                                         <color key="backgroundColor" systemColor="systemGreenColor"/>
+                                                        <connections>
+                                                            <action selector="colorButtonHandler:" destination="BYZ-38-t0r" eventType="touchUpInside" id="AvF-LF-Ksr"/>
+                                                        </connections>
                                                     </button>
                                                     <button opaque="NO" tag="3" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="uOi-bd-46k" customClass="CircularButton" customModule="Simon_Says" customModuleProvider="target">
                                                         <rect key="frame" x="169.5" y="0.0" width="161.5" height="161.5"/>
                                                         <color key="backgroundColor" systemColor="systemYellowColor"/>
+                                                        <connections>
+                                                            <action selector="colorButtonHandler:" destination="BYZ-38-t0r" eventType="touchUpInside" id="l6N-nn-jtk"/>
+                                                        </connections>
                                                     </button>
                                                 </subviews>
                                             </stackView>
@@ -154,14 +163,14 @@
                     </view>
                     <connections>
                         <outlet property="actionButton" destination="gmF-9s-3fp" id="Hhf-Tn-Ide"/>
-                        <outletCollection property="colorButtons" destination="f1U-pc-Qur" collectionClass="NSMutableArray" id="3Yo-Si-bQj"/>
                         <outletCollection property="playerLabels" destination="smD-Js-L8y" collectionClass="NSMutableArray" id="Ryd-If-UpE"/>
                         <outletCollection property="scoreLabels" destination="2lM-mq-Exu" collectionClass="NSMutableArray" id="3lh-Gh-uKZ"/>
                         <outletCollection property="playerLabels" destination="6SX-Md-Ake" collectionClass="NSMutableArray" id="Cjj-vk-dKG"/>
                         <outletCollection property="scoreLabels" destination="A7q-4m-qoV" collectionClass="NSMutableArray" id="X5o-f9-qr4"/>
-                        <outletCollection property="colorButtons" destination="hV5-ih-Vfo" collectionClass="NSMutableArray" id="1D3-YL-OC7"/>
-                        <outletCollection property="colorButtons" destination="nL7-fr-Ij6" collectionClass="NSMutableArray" id="wgy-Eb-ntc"/>
-                        <outletCollection property="colorButtons" destination="f1U-pc-Qur" collectionClass="NSMutableArray" id="nWJ-0V-g01"/>
+                        <outletCollection property="colorButtons" destination="f1U-pc-Qur" collectionClass="NSMutableArray" id="E64-Zf-fVg"/>
+                        <outletCollection property="colorButtons" destination="hV5-ih-Vfo" collectionClass="NSMutableArray" id="lf7-X4-ZJg"/>
+                        <outletCollection property="colorButtons" destination="nL7-fr-Ij6" collectionClass="NSMutableArray" id="yjZ-qA-fJb"/>
+                        <outletCollection property="colorButtons" destination="uOi-bd-46k" collectionClass="NSMutableArray" id="vjg-vZ-XyQ"/>
                     </connections>
                 </viewController>
             </objects>
